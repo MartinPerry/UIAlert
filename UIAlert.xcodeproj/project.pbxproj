@@ -14,6 +14,7 @@
 		C27200CC1A3EE6BD0050344E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27200CB1A3EE6BD0050344E /* Images.xcassets */; };
 		C27200CF1A3EE6BD0050344E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C27200CD1A3EE6BD0050344E /* LaunchScreen.xib */; };
 		C27200DB1A3EE6BD0050344E /* UIAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C27200DA1A3EE6BD0050344E /* UIAlertTests.m */; };
+		C27200E61A3EE71F0050344E /* MyAlertMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C27200E51A3EE71F0050344E /* MyAlertMessage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C27200D41A3EE6BD0050344E /* UIAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27200D91A3EE6BD0050344E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C27200DA1A3EE6BD0050344E /* UIAlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAlertTests.m; sourceTree = "<group>"; };
+		C27200E41A3EE71F0050344E /* MyAlertMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAlertMessage.h; sourceTree = "<group>"; };
+		C27200E51A3EE71F0050344E /* MyAlertMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAlertMessage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		C27200BD1A3EE6BD0050344E /* UIAlert */ = {
 			isa = PBXGroup;
 			children = (
+				C27200E41A3EE71F0050344E /* MyAlertMessage.h */,
+				C27200E51A3EE71F0050344E /* MyAlertMessage.m */,
 				C27200C21A3EE6BD0050344E /* AppDelegate.h */,
 				C27200C31A3EE6BD0050344E /* AppDelegate.m */,
 				C27200C51A3EE6BD0050344E /* ViewController.h */,
@@ -221,6 +226,7 @@
 			files = (
 				C27200C71A3EE6BD0050344E /* ViewController.m in Sources */,
 				C27200C41A3EE6BD0050344E /* AppDelegate.m in Sources */,
+				C27200E61A3EE71F0050344E /* MyAlertMessage.m in Sources */,
 				C27200C11A3EE6BD0050344E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
